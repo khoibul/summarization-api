@@ -1,4 +1,3 @@
-
 import requests
 
 BASE_URL = "http://127.0.0.1:8000"
@@ -55,7 +54,7 @@ def test_invalid_input():
         json=data
     )
 
-    print("\n--- Test Invalid Input ---")
+    print("\nTest Invalid Input")
     print("Status code:", response.status_code)
     print("Response:", response.json())
 
