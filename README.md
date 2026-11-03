@@ -207,7 +207,7 @@ Inference errors return HTTP `500 Internal Server Error`.
 
 ## 10. Demo Video
 
-[Insert your demonstration video link here.]
+https://drive.google.com/file/d/1Knw-Jv1BmsnolD0WTvP4W5aPk8WeDolq/view?usp=sharing
 
 The demonstration video includes:
 
