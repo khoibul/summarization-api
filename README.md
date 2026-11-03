@@ -42,6 +42,7 @@ summarization-api/
 │   └── summarizer.py
 │
 ├── main.py
+├── test_api.py
 ├── requirements.txt
 ├── README.md
 └── .gitignore
@@ -57,7 +58,7 @@ summarization-api/
 ### Step 1: Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/summarization-api.git
+git clone https://github.com/khoibul/summarization-api.git
 cd summarization-api
 ```
 
@@ -103,6 +104,24 @@ Open the following URL in your browser:
 ```text
 http://127.0.0.1:8000/docs
 ```
+
+### API Testing
+
+To test the API using the provided Python test script:
+
+1. Start the FastAPI server.
+2. Open another terminal and activate the virtual environment.
+3. Run the following command:
+
+```bash
+python test_api.py
+```
+
+The script tests:
+- GET `/`
+- GET `/health`
+- POST `/predict` with valid input.
+- POST `/predict` with invalid input.
 
 ## 8. API Endpoints
 
@@ -184,6 +203,7 @@ Inference errors return HTTP `500 Internal Server Error`.
 - **FastAPI** – Building the Web API.
 - **Pydantic** – Request data validation.
 - **Uvicorn** – Running the API server.
+- **Requests** – Sending HTTP requests for API testing.
 
 ## 10. Demo Video
 
