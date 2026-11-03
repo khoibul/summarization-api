@@ -1,0 +1,31 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# Test and tool cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Hugging Face cache and downloaded model files
+.cache/
+models/
+
+# OS generated files
+.DS_Store
+Thumbs.db
